@@ -10,3 +10,7 @@ endpoints:
     networkVisibilities:
       - Project
     schemaFilePath: openapi.yaml
+    dependencies:
+      connectionReferences:
+        - name: Public connection
+          resourceRef: service:/connection-testing-projec/public-service/v1/5c69c/PUBLIC
