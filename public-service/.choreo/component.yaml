@@ -10,3 +10,7 @@ endpoints:
     networkVisibilities:
       - Public
     schemaFilePath: openapi.yaml
+    dependencies:
+    connectionReferences:
+    - name: Project Con
+      resourceRef: service:/newprojectfortesting/echo-service/v1/8b1c3/PUBLIC
